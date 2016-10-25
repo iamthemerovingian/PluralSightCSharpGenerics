@@ -21,6 +21,7 @@ namespace DataStructures.Tests
             buffer.Write(1);
             buffer.Write(1);
             Assert.IsTrue(buffer.IsFull);
+
         }
 
         [TestMethod]
